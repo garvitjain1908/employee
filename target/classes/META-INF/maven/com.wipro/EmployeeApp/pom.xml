@@ -11,5 +11,19 @@
     <version>5.2.7.RELEASE</version>
 </dependency>
 </dependencies>
+
+<repositories>
+        <repository>
+            <id>myMavenRepo.read</id>
+            <url>https://mymavenrepo.com/repo/UouxIuQHhUQYRxUZJlfd/</url>
+        </repository>
+    </repositories>
+
+    <distributionManagement>
+        <repository>
+            <id>myMavenRepo.write</id>
+            <url>https://mymavenrepo.com/repo/F5MIXg8UPPPKaQdXSvZ6/</url>
+        </repository>
+    </distributionManagement>
   
 </project>
